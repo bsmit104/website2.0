@@ -1,0 +1,64 @@
+/* Nav bar tweaks */
+.navbar-custom {
+  background-color: #5f0047; /* Dark shade */
+  /* font-family: 'Kode Mono', monospace; */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: #ffdd00; /* Bright color for contrast */
+  font-size: 24px;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #ffffff; /* Change for hover state */
+}
+
+body {
+  /* background-color: #140447; */
+  /* background-color: #a8cd83; light green */
+
+  background-image: url("assets/purplerocks.png");
+  background-repeat: repeat;
+  background-size: auto;
+  /* background-size: 64px; */
+  /*background-color: #010101;*/
+  font-family: Arial, sans-serif;
+}
+
+.medievalsharp-regular {
+  font-family: "MedievalSharp", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}
+
+
+/* Remove underline from anchor text */
+a.card-link {
+  text-decoration: none;
+}
+
+/* Add border to card on hover */
+.card:hover {
+  border: 5px solid #438b1f;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+  }
+  
+  .contact-icons a {
+    margin: 0 20px;
+    font-size: 100px;
+    /* color: #333333; */
+    color: #ffffff;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .contact-icons a:hover {
+    color: #0077b5;
+  }
+  
