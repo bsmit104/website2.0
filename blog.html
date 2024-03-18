@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Braydens Portfolio</title>
-  <link rel="stylesheet" href="styles.css"> <!-- Updated CSS link -->
+  <link rel="stylesheet" href="styles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,9 +26,6 @@
             <a class="nav-link" href="projects.html" data-glitch="Projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html" data-glitch="Contact">Contact</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link active" href="blog.html" data-glitch="Blog">Blog</a>
           </li>
         </ul>
@@ -41,8 +38,8 @@
     <div class="jumbotron p-3 p-md-5 mt-4 text-white rounded bg-dark">
       <div class="row">
         <div class="col-md-6 px-0">
-          <h1 class="display-4 font-italic">Blog Bog</h1>
-          <p class="lead my-3">Get insight into my thoughts, discoveries, and news!</p>
+          <h1 class="display-4 font-italic wallpoet-regular">Blog</h1>
+          <p class="lead my-3 wallpoet-regular">Get insight into my thoughts, discoveries, and news!</p>
         </div>
         <div class="col-md-6 d-flex justify-content-center align-items-center">
           <img src="assets/octo.png" alt="Description" style="max-width:100%;height:auto;">
@@ -50,38 +47,31 @@
       </div>
     </div>
 
-      <div class="album py-5 bg-success">
+      <div class="album py-5 custom-bg-color">
         <div class="container">
     
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            <a href="blogs/blog1.html" class="card-link">
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-            
-                  <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <small class="text-muted">9 mins</small>
+            <a href="blog1.html" class="card-link">
+                <div class="col">
+                    <div class="card shadow-sm bg-customBlog wallpoet-regular">
+                        <img src="assets/webdev.PNG" class="card-img-top" alt="Image Description" style="width: 100%; height: 225px; object-fit: cover;">
+                        <div class="card-body" style="height: 100px; overflow: hidden;">
+                            <p class="card-text">I re-did my website. Here's what I learned.</p>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
             </a>
-            <a href="blogs/blog1.html" class="card-link">
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-            
-                  <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <small class="text-muted">9 mins</small>
+            <a href="blog1.html" class="card-link">
+                <div class="col">
+                    <div class="card shadow-sm bg-customBlog wallpoet-regular">
+                        <img src="path_to_your_image.jpg" class="card-img-top" alt="Image Description" style="width: 100%; height: 225px; object-fit: cover;">
+                        <div class="card-body" style="height: 100px; overflow: hidden;">
+                            <p class="card-text">How I recreated Minecraft's Guardian Beams</p>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
             </a>
+        </div>
             <!-- <a href="blogs/blog1.html" class="card-link">
               <div class="col">
                 <div class="card shadow-sm">
@@ -226,6 +216,8 @@
           </div>
         </div>
       </div> -->
+
+      <!-- bootstrap album example inspired -->
   </div>
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
