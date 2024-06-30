@@ -116,6 +116,7 @@ a.card-link {
   /* text boxes */
   .card:hover .overlay-text {
     opacity: 1;
+    font-size: 18px;
   }
 
   .card:hover .tint-overlay {
@@ -199,6 +200,13 @@ a.card-link {
       to {
           transform: translate(0);
       }
+  }
+
+  @media (max-width: 768px) {
+    .nav-link:before,
+    .nav-link:after {
+      display: none; /* Hides the pseudo-elements causing the glitch effect */
+    }
   }
 
   /* https://codepen.io/kkhenriquez/pen/PGvmjm */
