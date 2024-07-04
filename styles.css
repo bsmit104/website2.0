@@ -17,10 +17,10 @@
 body {
   /* background-color: #091833 !important; */
   /* background-color: #a8cd83; light green */
-
-  background-image: url("assets/cybercity.png");
+  background-color: #6800d0 !important;;
+  /* background-image: url("assets/cybercity.png");
   background-repeat: repeat;
-  background-size: auto;
+  background-size: auto; */
   /* background-size: 64px; */
   /*background-color: #010101;*/
   font-family: Arial, sans-serif;
