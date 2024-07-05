@@ -112,28 +112,6 @@
       }, 3000); // Change back after 3 seconds
     });
   </script> -->
-  <!-- <script>
-    document.getElementById('dragon-image').addEventListener('click', function() {
-      var img = this;
-      img.src = 'assets/dragon2.png'; // Change to dragon2.png
-      setTimeout(function() {
-        img.src = 'assets/dragon.png'; // Change back to dragon.png
-      }, 3000); // Change back after 3 seconds
-
-      var circle = document.getElementById('blue-circle');
-      circle.style.top = img.offsetTop + 'px';
-      circle.style.left = (img.offsetLeft + img.offsetWidth / 2 - 10) + 'px';
-      circle.style.display = 'block'; // Make the circle visible
-      circle.classList.remove('fly'); // Remove any existing animation class
-      setTimeout(function() {
-        circle.classList.add('fly'); // Add the fly animation class
-      }, 50); // Trigger animation after a slight delay to ensure it restarts
-
-      setTimeout(function() {
-        circle.style.display = 'none'; // Hide the circle after animation
-      }, 3000); // Remove the animation class after 3 seconds
-    });
-  </script> -->
   <script>
     document.getElementById('dragon-image').addEventListener('click', function() {
       var img = this;
